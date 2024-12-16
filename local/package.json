@@ -1,0 +1,17 @@
+{
+  "type": "module",
+  "name": "local",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "repro": "npm run test -- --run && echo success"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "vitest": "^2.1.8"
+  }
+}
